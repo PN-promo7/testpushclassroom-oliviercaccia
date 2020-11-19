@@ -1,0 +1,49 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+
+    .container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    body, html{
+        width: 100%;
+    }
+    .nav-links{
+     
+       margin: 0px;
+     
+    }
+    .nav-links a{
+        padding: 0px;
+    }
+   
+  
+    .nav-links, .nav-icon{
+        display: none;
+    }
+    .flex-categorie, .flex-produits, .flex-footer{
+        flex-direction: column;
+    }
+    .bottom-nav img{
+        display: none;
+    }
+    .btn-produit{
+        margin-bottom: 10%;
+    }
+    .promo-alignLeft{
+        left: 5%;
+        width: 66%;
+    }
+    .title-vente{
+        font-size: 3rem;
+    }
+   
+    .news-letter{
+        width: 100%;
+    }
+    .btn-header{
+        width: 80%;
+    }
+}
